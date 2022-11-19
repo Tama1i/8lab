@@ -10,7 +10,7 @@ if __name__ == '__main__':
     m = [input(" 1 "),input(" 2 "),input(" 3 ")]
     p = True
 
-    for i in range(0,2):
+    for i in enumerate(m):
         if m[i] == a1[1]:
             m[i] = int(a1[0])
     for i in range(0,2):
