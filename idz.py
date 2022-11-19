@@ -13,13 +13,13 @@ if __name__ == '__main__':
     for i in enumerate(m):
         if m[i] == a1[1]:
             m[i] = int(a1[0])
-    for i in range(0,2):
+    for i in enumerate(m):
         if m[i] == a2[1]:
             m[i] = int(a2[0])
-    for i in range(0,2):
+    for i in enumerate(m):
         if m[i] == a3[1]:
             m[i] = int(a3[0])
-    for i in range(0,1):
+    for i in enumerate(m):
         if int(m[i]) < int(m[i+1]):
             p = False
         
